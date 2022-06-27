@@ -1,0 +1,8 @@
+function Automovil(fabricante,modelo, color, cilindrada){
+this.fabricante = fabricante;
+this.model = modelo;
+this.cilindrada = cilindrada;
+}
+let auto1 = new Automovil("Toyota","RAVA","Rojo","2.4");
+console.log(auto1.fabricante);
+ 
